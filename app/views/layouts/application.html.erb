@@ -11,6 +11,7 @@
   <body>
     <header class="row">
         <div class= "col-3">
+          <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
             <br />
             The Office
@@ -19,12 +20,13 @@
             <br />
             Daily
           </div>
+          <% end %>
         </div>
         <div class="col-4 slogan">
           Random The Office Quotes are life savers
         </div>
         <div class="col-5 links">
-          <%= link_to 'contribute', '#' %>
+          <%= link_to 'contribute', new_quote_path %>
           <%= link_to 'about', '#' %>
         </div>
 
@@ -43,10 +45,9 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-         <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %> 
+         <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>   
         </div>
         <div class="col-6 footer-blurb">
-          
           Proudly developed by <a href="https://landoncondra.netlify.com/"> Landon Condra </a><br />
           Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
           </div>
