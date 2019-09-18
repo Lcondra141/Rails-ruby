@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Manjari|Saira+Stencil+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cute+Font&display=swap');
-
 
 @import "bootstrap";
 
@@ -52,9 +50,9 @@ hr {
 }
 
 h1 {
-  font-family: 'Manjari', sans-serif;
-  font-family: 'Saira Stencil One', cursive;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
+
 
 h2 {
   font-family: 'Manjari', sans-serif;
@@ -78,6 +76,8 @@ h2 {
 }
 
 
-
-
+.about {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+}
 
